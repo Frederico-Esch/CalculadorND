@@ -1,0 +1,30 @@
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 20px;
+}
+
+.valor-calculado {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+input, button {
+    margin: 10px;
+}
+
+input {
+    min-width: 550px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
