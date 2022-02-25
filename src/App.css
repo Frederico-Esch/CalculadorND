@@ -4,6 +4,56 @@ body {
 .Header {
   color: white;
   text-align: center;
+  margin-top:80px;
   border-bottom: white solid 1px;
   border-top: white solid 1px;
 }
+
+header {
+  background-color:whiteSmoke;
+  position:fixed;
+  align-items:center;
+  display:flex;
+  height: 60px;
+  top:0;
+  left:0;
+  right:0;
+  align-items:center;
+}
+header * {
+  display:flex;
+  align-self:stretch;
+}
+nav {
+  width:100vw;
+}
+ul {
+  display:flex;
+  flex-direction: row;
+  align-self:stretch;
+  width:100vw;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  font-size:1em;
+  text-decoration:none;
+  color: black;
+  border:solid gray 3px;
+  border-radius: 10px;
+  padding:10px;
+  align-self:center;
+  background-color:whiteSmoke;
+}
+
+a:hover {
+  color: white;
+  background:gray;
+}
+a:active {
+  background:white;
+}
+
